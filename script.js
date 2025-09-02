@@ -19,8 +19,19 @@ window.onscroll = () =>  {
     })
 }
 
-
 menuicon.onclick = () => {
     menuicon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
+
 }
+
+  if (!localStorage.getItem("preloaderShown")) {
+    document.getElementById("preloader").style.display = "flex";
+
+    setTimeout(() => {
+      document.getElementById("preloader").style.display = "none";
+      localStorage.setItem("preloaderShown", "true");
+    }, 4000); 
+  } else {
+    document.getElementById("preloader").style.display = "none";
+  }
