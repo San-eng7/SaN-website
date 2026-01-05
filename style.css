@@ -235,11 +235,11 @@ span{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding-left: 4.1rem;
     width: 4.5rem;
     height: 4.5rem;
     gap: 1rem;
     background: transparent;
+    border: 2px solid var(--main-color);
     font-size: 2.5rem;
     border-radius: 50%;
     color: var(--main-color);
@@ -247,18 +247,10 @@ span{
     transition: 0.3s ease-in-out;
 }
 
-.bxl-instagram-alt{
+.bxl-instagram-alt,.bxl-telegram,
+.bxl-facebook-circle,.bxl-whatsapp{
     color:var(--main-color);
 }
-
-.bxl-facebook-circle{
-    color:var(--main-color);
-}
-
-.bxl-telegram{
-      color:var(--main-color);
-}
-
 
 .social-icon a:hover{
     color: var(--text-color);
@@ -846,3 +838,4 @@ footer ul li{
   }
 
 }
+
