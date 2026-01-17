@@ -90,15 +90,6 @@ body{
   }
 }
 
-/* Use media queries for responsiveness */
-@media (max-width: 768px) {
-  .div {
-    width: 500px; /* Adjust width for smaller screens */
-    left: 10%;
-  }
-}
-
-
 .lang-switch{
   background-color: var(--second-big-color);
   color: var(--main-color);
@@ -839,4 +830,11 @@ footer ul li{
 
 }
 
+/* Use media queries for responsiveness */
+@media (max-width: 768px) {
+  .div {
+    width: 500px; /* Adjust width for smaller screens *
+    left: 10%;
+  }
+}
 
