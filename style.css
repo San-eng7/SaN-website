@@ -476,7 +476,7 @@ span{
     line-height: 22px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar{
     width: 15px;
 }
 
@@ -837,4 +837,5 @@ footer ul li{
     left: 10%;
   }
 }
+
 
